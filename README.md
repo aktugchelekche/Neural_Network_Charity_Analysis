@@ -82,22 +82,28 @@ Therefore, <code>EIN </code> was removed from the input data.
   * 2- Increase numbers of neurons for each layers. 
   * 3- Insert 3rd layers to the model, then removed it as it didnt make significant changes and decrease the model performance. Since we are using a relativly small dataset, it was not suggested to use more than 2 layers for the model .
   * 4- Changed activation function for 1st layer from <code>Relu</code> to <code>tanh</code>. In my opinion, <code>tanh</code>  normilizes the data better than <code> Relu</code>.
-  * 5- No changes made in number of code>Epochs</code> as it would easly overfit the model .
+  * 5- No changes made in number of <code>Epochs</code> as it would easly overfit the model .
 
 
 <table>
   <tr>
-    <th> </th>
-    <th> Initial Model  </th>
-    <th>Optimized Model </th>
-  </tr>
-  <tr>
-    <td> Number of neurons</td>
-    <td></td>
-    <td></td>
+    <th>Initial Model  </th>
+    <th>Optimized Model   </th>
     
   </tr>
+  <tr>
+    <td><img width="890" alt="Screen Shot 2022-06-10 at 10 46 29 AM" src="https://user-images.githubusercontent.com/98676400/173102900-e0d3859c-11d9-40fb-a73f-486d0d71e36b.png">
+</td>
+    <td> <img width="874" alt="Screen Shot 2022-06-10 at 10 43 31 AM" src="https://user-images.githubusercontent.com/98676400/173102297-506e584e-718d-4db1-b4d5-691efcdac2f5.png"></td>
+    
+    
+  </tr>
+<tr>
+    <td><img width="874" alt="Screen Shot 2022-06-10 at 10 47 53 AM" src="https://user-images.githubusercontent.com/98676400/173103157-a2ea6a8f-f0c5-49a4-b330-1fc6197683b1.png">
 
+</td>
+    <td><img width="872" alt="Screen Shot 2022-06-10 at 10 48 22 AM" src="https://user-images.githubusercontent.com/98676400/173103259-42696454-acb5-4750-bfa5-7a9b76859b88.png">
 
-Were you able to achieve the target model performance?
-What steps did you take to try and increase model performance?
+       
+  </tr>
+
