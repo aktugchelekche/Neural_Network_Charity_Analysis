@@ -74,6 +74,22 @@ Therefore, <code>EIN </code> was removed from the input data.
     <td>Layers = 2</td> 
     <td>Layers = 3</td> 
   </tr>
+   <tr>
+     <td>Model </td>
+    <td><img width="890" alt="Screen Shot 2022-06-10 at 10 46 29 AM" src="https://user-images.githubusercontent.com/98676400/173102900-e0d3859c-11d9-40fb-a73f-486d0d71e36b.png">
+</td>
+    <td> <img width="874" alt="Screen Shot 2022-06-10 at 10 43 31 AM" src="https://user-images.githubusercontent.com/98676400/173102297-506e584e-718d-4db1-b4d5-691efcdac2f5.png"></td>
+    
+    
+  </tr>
+<tr>
+ <td></td>
+    <td><img width="874" alt="Screen Shot 2022-06-10 at 10 47 53 AM" src="https://user-images.githubusercontent.com/98676400/173103157-a2ea6a8f-f0c5-49a4-b330-1fc6197683b1.png">
+</td>
+    <td><img width="872" alt="Screen Shot 2022-06-10 at 10 48 22 AM" src="https://user-images.githubusercontent.com/98676400/173103259-42696454-acb5-4750-bfa5-7a9b76859b88.png">
+
+ </td>   
+  </tr>
 </table>
 
 * Steps to try and increase model performance
@@ -91,19 +107,5 @@ Therefore, <code>EIN </code> was removed from the input data.
     <th>Optimized Model   </th>
     
   </tr>
-  <tr>
-    <td><img width="890" alt="Screen Shot 2022-06-10 at 10 46 29 AM" src="https://user-images.githubusercontent.com/98676400/173102900-e0d3859c-11d9-40fb-a73f-486d0d71e36b.png">
-</td>
-    <td> <img width="874" alt="Screen Shot 2022-06-10 at 10 43 31 AM" src="https://user-images.githubusercontent.com/98676400/173102297-506e584e-718d-4db1-b4d5-691efcdac2f5.png"></td>
-    
-    
-  </tr>
-<tr>
-    <td><img width="874" alt="Screen Shot 2022-06-10 at 10 47 53 AM" src="https://user-images.githubusercontent.com/98676400/173103157-a2ea6a8f-f0c5-49a4-b330-1fc6197683b1.png">
 
-</td>
-    <td><img width="872" alt="Screen Shot 2022-06-10 at 10 48 22 AM" src="https://user-images.githubusercontent.com/98676400/173103259-42696454-acb5-4750-bfa5-7a9b76859b88.png">
-
-       
-  </tr>
 
