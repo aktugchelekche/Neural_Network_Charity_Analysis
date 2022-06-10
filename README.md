@@ -1,21 +1,21 @@
 # Neural Network Charity Analysis
 
-A Deep Learning Algorith with TensorFlow
+A Deep Learning Algorithm with TensorFlow
 
 # Project Overview
 
-The purpose of this project is to perform to Neural Networks Machine Learning algorithms in order to analyze how efficiently funds and donations from the foundation is used.
+The purpose of this project is to perform to Neural Networks Machine Learning algorithms to analyze how efficiently funds and donations from the foundation is used.
 
 # Results:
 
 ### Data Preprocessing
 
 
-* The Variable considered <strong> Target</strong> for the model :
+* The Variable considered <strong> Target</strong> for the model:
 
 After carefully investigating the dataset <code>IS_SUCCESSFULL</code> feature was used as target variable which is what our model will predict by utilizing rest of the features in the dataset. 
 
-* The variables considered be the features <strong> Features</strong> for the model :
+* The variables considered be the features <strong> Features</strong> for the model:
   * NAME *
   * APPLICATION_TYPE	
   * AFFILIATION	
@@ -29,7 +29,7 @@ After carefully investigating the dataset <code>IS_SUCCESSFULL</code> feature wa
 
 * The variables are neither targets nor features and removed from the input data
 
-For 1st model , <code>EIN </code> and <code>NAME</code> was removed from the dataset before perform any feature enginering to establish our model .
+For 1st model, <code>EIN </code> and <code>NAME</code> was removed from the dataset before perform any feature engineering to establish our model .
 However, after compiling the model and extract the accuracy report, it was discovered that keeping <code> NAME</code> as feature benefits for optimizing and increase accuracy of the model. 
 Therefore, <code>EIN </code> was removed from the input data. 
 
@@ -38,7 +38,7 @@ Therefore, <code>EIN </code> was removed from the input data.
 <table>
   <tr>
     <th> </th>
-    <th> Initial Model  </th>
+    <th> Initial Model </th>
     <th>Optimized Model </th>
   </tr>
   <tr>
@@ -98,20 +98,20 @@ After applying variety of optimization steps the model performance increased fro
 ### Steps to try and increase model performance
 
   * 1- Use <code>NAME</code> as feature and create bin for it instead of removing it.
-  * 2- Increase numbers of neurons for each layers. 
-  * 3- Insert 3rd layers to the model, then removed it as it didnt make significant changes and decrease the model performance. Since we are using a relativly small dataset, it was not suggested to use more than 2 layers for the model .
-  * 4- Changed activation function for 1st layer from <code>Relu</code> to <code>tanh</code>. In my opinion, <code>tanh</code>  normilizes the data better than <code> Relu</code>.
-  * 5- No changes made in number of <code>Epochs</code> as it would easly overfit the model .
+  * 2- Increase numbers of neurons for each layer. 
+  * 3- Insert 3rd layers to the model, then removed it as it didn’t make significant changes and decrease the model performance. Since we are using a relatively small dataset, it was not suggested to use more than 2 layers for the model.
+  * 4- Changed activation function for 1st layer from <code>Relu</code> to <code>tanh</code>. In my opinion, <code>tanh</code> normalizes the data better than <code> Relu</code>.
+  * 5- No changes made in number of <code>Epochs</code> as it would easily overfit the model.
 
 # Summary
 
-
-
+Only 2 different model were created to reach optimum accuracy for this project. There are simple steps that can increase the model performance instantly such as add more neurons to each layer, change the activation functions and reengineering the features. In addition, the loss score is around 50% which is also acceptable range for the model. One of the fundamental issue while optimizing the model is the overfitting. In order to refrain from overfitting, numbers of layers should be minimized for small datasets and also iteration should be in certain range. 
+### Recommendation
+Since it is a categorical dataset, using Random Forest Classifier would be more efficient since it uses less resources and requires less coding. 
 # Resources
-Dataset: [charity_data.csv](https://github.com/aktugchelekche/Neural_Network_Charity_Analysis/tree/main/Resources)
-Software/Languages: Jupyter Notebook- Google Colab, Python.
-Libraries: Scikit-learn, Pandas, Plotly. HvPlot.
-
+* Dataset: [charity_data.csv](https://github.com/aktugchelekche/Neural_Network_Charity_Analysis/tree/main/Resources)
+* Software/Languages: Jupyter Notebook- Google Colab, Python.
+* Libraries: Scikit-learn, TensorFlow, Pandas, Matlib
 
 
 
